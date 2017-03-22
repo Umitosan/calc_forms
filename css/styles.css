@@ -1,0 +1,39 @@
+#bev .form-control {
+  width: 200px;
+}
+
+#output_modulus {
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  height: 25px;
+  width: 100px;
+}
+
+#output_add {
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  height: 25px;
+  width: 100px;
+}
+
+#dropdown {
+  margin-top: 20px;
+}
+
+#output_bev {
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  height: 25px;
+  width: 100px;
+}
+
+#add {
+  width: 200px;
+}
+
+#modulus {
+  width: 200px;
+}

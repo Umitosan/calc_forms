@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="js/scripts.js"></script>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <title></title>
+  </head>
+  <body>
+
+    <div class="jumbotron">
+      <h1>Calculator, etc</h1>
+    </div>
+
+    <div class="container">
+
+
+      <form id="add">
+        <div>
+          <div class="form-group">
+            <label for="add1">1st number to add:</label>
+            <input id="add1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="add2">2nd number to add:</label>
+            <input id="add2" class="form-control" type="text">
+          </div>
+          <button type="submit_add" class="btn">Add!</button>
+
+          <p>result of add</p>
+          <div id="output_add"></div><br />
+        </div>
+      </form>
+
+      <form id="modulus">
+        <div>
+          <div class="form-group">
+            <label for="modulus1">1st number - modulus:</label>
+            <input id="modulus1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="modulus2">2nd number - modulus:</label>
+            <input id="modulus2" class="form-control" type="text">
+          </div>
+          <button type="submit_modulus" class="btn">Modulo me!</button>
+
+          <p>result of modulus</p>
+          <div id="output_modulus"></div><br />
+        </div>
+      </form>
+
+      <form id="dropdown">
+        <div>
+          <div class="form-group">
+            <select class="form-control" id="beverage">
+              <option value="1">Coffee</option>
+              <option value="2">Tea</option>
+              <option value="3">Kombucha</option>
+              <option value="4">Water</option>
+            </select>
+          </div>
+
+          <p>result of beverage dropdown:</p>
+          <div id="output_bev"></div>
+        </div>
+      </form>
+
+
+
+
+    </div>
+
+  </body>
+</html>
